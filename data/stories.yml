@@ -1,0 +1,207 @@
+version: "3.1"
+
+stories:
+## happy path
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: suprise
+  - action: utter_suprise
+
+## introduce
+- story: say introduce
+  steps:
+  - intent: introduce
+  - action: utter_introduce
+
+## objective
+- story: say objective
+  steps:
+  - intent: objective
+  - action: utter_objective
+
+## action slogan
+- story: say action slogan
+  steps:
+  - intent: action_slogan
+  - action: utter_action_slogan
+
+## objective action slogan
+- story: say objective action slogan
+  steps:
+  - intent: obj_action_slogan
+  - action: utter_objective
+  - action: utter_action_slogan
+
+## criterion system
+- story: say criterion system
+  steps:
+  - intent: criterion_system
+  - action: utter_criterion_system
+
+## movements action programs
+- story: movements action programs
+  steps:
+  - intent: movements_action_programs
+  - action: utter_movements_action_programs
+
+## movement excellent student1
+- story: movement excellent student1
+  steps:
+  - intent: movement_excellent_student1
+  - action: utter_movement_excellent_student1
+
+## movement excellent student1.1
+- story: movement excellent student1.1
+  steps:
+  - intent: movement_excellent_student1.1
+  - action: utter_movement_excellent_student1.1
+
+## movement excellent student1.2.1
+- story: movement excellent student1.2.1
+  steps:
+  - intent: movement_excellent_student1.2.1
+  - action: utter_movement_excellent_student1.2.1
+
+## movement excellent student1.2.2
+- story: movement excellent student1.2.2
+  steps:
+  - intent: movement_excellent_student1.2.2
+  - action: utter_movement_excellent_student1.2.2
+
+## movement excellent student1.2.3
+- story: movement excellent student1.2.3
+  steps:
+  - intent: movement_excellent_student1.2.3
+  - action: utter_movement_excellent_student1.2.3
+
+## movement excellent student1.2.4
+- story: movement excellent student1.2.4
+  steps:
+  - intent: movement_excellent_student1.2.4
+  - action: utter_movement_excellent_student1.2.4
+
+## movement excellent student1.2.5
+- story: movement excellent student1.2.5
+  steps:
+  - intent: movement_excellent_student1.2.5
+  - action: utter_movement_excellent_student1.2.5
+
+## student_counseling_support_program2
+- story: student counseling support program2
+  steps:
+  - intent: student_counseling_support_program2
+  - action: utter_student_counseling_support_program2
+
+## strong vietnamese student union3
+- story: strong vietnamese student union3
+  steps:
+  - intent: strong_vietnamese_student_union3
+  - action: utter_strong_vietnamese_student_union3
+
+## strong vietnamese student union3.1
+- story: strong vietnamese student union3.1
+  steps:
+  - intent: strong_vietnamese_student_union3.1
+  - action: utter_strong_vietnamese_student_union3.1
+
+## strong vietnamese student union3.2
+- story: strong vietnamese student union3.2
+  steps:
+  - intent: strong_vietnamese_student_union3.2
+  - action: utter_strong_vietnamese_student_union3.2
+
+## strong vietnamese student union3.3
+- story: strong vietnamese student union3.3
+  steps:
+  - intent: strong_vietnamese_student_union3.3
+  - action: utter_strong_vietnamese_student_union3.3
+
+## strong vietnamese student union3.4
+- story: strong vietnamese student union3.4
+  steps:
+  - intent: strong_vietnamese_student_union3.4
+  - action: utter_strong_vietnamese_student_union3.4
+
+## strong vietnamese student union3.4
+- story: strong vietnamese student union3.4
+  steps:
+  - intent: strong_vietnamese_student_union3.4
+  - action: utter_strong_vietnamese_student_union3.4
+
+## strong vietnamese student union3.4
+- story: strong vietnamese student union3.4
+  steps:
+  - intent: strong_vietnamese_student_union3.4
+  - action: utter_strong_vietnamese_student_union3.4
+
+## strong vietnamese student union3.5
+- story: strong vietnamese student union3.5
+  steps:
+  - intent: strong_vietnamese_student_union3.5
+  - action: utter_strong_vietnamese_student_union3.5
+
+## strong vietnamese student union3.6
+- story: strong vietnamese student union3.6
+  steps:
+  - intent: strong_vietnamese_student_union3.6
+  - action: utter_strong_vietnamese_student_union3.6
+
+## programs projects initiatives
+- story: programs projects initiatives
+  steps:
+  - intent: programs_projects_initiatives
+  - action: utter_programs_projects_initiatives
+
+## programs projects initiatives1
+- story: programs projects initiatives1
+  steps:
+  - intent: programs_projects_initiatives1
+  - action: utter_programs_projects_initiatives1
+
+## programs projects initiatives2
+- story: programs projects initiatives2
+  steps:
+  - intent: programs_projects_initiatives2
+  - action: utter_programs_projects_initiatives2
+
+## programs projects initiatives3
+- story: programs projects initiatives3
+  steps:
+  - intent: programs_projects_initiatives3
+  - action: utter_programs_projects_initiatives3
+
+## suprise
+- story: user_suprise
+  steps:
+  - intent: suprise
+  - action: utter_suprise
+
+## good bye
+- story: say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+## thank you
+- story: thank you
+  steps:
+  - intent: thanks
+  - action: utter_nothing
+  - action: utter_nextwork
+  - intent: deny
+  - action: utter_goodbye
+
+## good night
+- story: goodnight
+  steps:
+  - intent: goodnight
+  - action: utter_thanks
+  - action: utter_goodnight
+
+## suprise
+- story: suprise
+  steps:
+  - intent: suprise
+  - action: utter_suprise

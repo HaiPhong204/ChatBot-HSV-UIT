@@ -1,0 +1,272 @@
+version: "3.1"
+
+intents:
+  - greet
+  - introduce
+  - objective
+  - action_slogan
+  - obj_action_slogan
+  - criterion_system
+  - movements_action_programs
+  - movement_excellent_student1
+  - movement_excellent_student1.1
+  - movement_excellent_student1.2.1
+  - movement_excellent_student1.2.2
+  - movement_excellent_student1.2.3
+  - movement_excellent_student1.2.4
+  - movement_excellent_student1.2.5
+  - student_counseling_support_program2
+  - strong_vietnamese_student_union3
+  - strong_vietnamese_student_union3.1
+  - strong_vietnamese_student_union3.2
+  - strong_vietnamese_student_union3.3
+  - strong_vietnamese_student_union3.4
+  - strong_vietnamese_student_union3.5
+  - strong_vietnamese_student_union3.6
+  - programs_projects_initiatives
+  - programs_projects_initiatives1
+  - programs_projects_initiatives2
+  - programs_projects_initiatives3
+  - suprise
+  - thanks
+  - deny
+  - goodbye
+  - goodnight
+
+responses:
+  utter_greet:
+  - text: "Xin chào! Mình là \"Bot Thông Thái\" của nhà Hội Sinh viên Trường Đại học Công nghệ Thông tin ^_^ sẽ giúp bạn hiểu rõ hơn về tổ chức này."
+  - text: "Hi! Bồ câu \"Bot Thông Thái\" nhà Yêu AI Ti có thể giúp được gì cho bạn hông?" 
+  - text: "Chào bạn! Tiếc quá hiện tại mọi người đang bận, \"Bot Thông Thái\" nhà Hội UIT có thể hỗ trợ bạn điều gì hông?"
+  - text: "Hello! Bạn cần \"Bot Thông Thái\" của Hội Sinh viên Yêu AI Ti giúp gì nè ^^"
+
+  utter_introduce:
+  - text: "Tui được nhà Hội giao nhiệm vụ giúp đỡ các bạn Sinh viên biết nhiều thông tin hơn về tổ chức Hội Sinh viên UIT gồm:
+          \n+ Mục tiêu - Khẩu hiệu hành động
+          \n+ Hệ thống chỉ tiêu
+          \n+ Phong trào và chương trình hành động
+          \n+ Các chương trình, công trình, đề án
+          \n+ Thông tin về danh hiệu Sinh viên 5 tốt"
+
+  utter_objective:
+  - text: "Mục tiêu của Hội Sinh viên Trường Đại học Công Nghệ Thông Tin - ĐHQG-HCM giai đoạn 2023 - 2025 có thể được tóm tắt như sau:
+          \n1.Nâng cao ý thức và xây dựng hình mẫu sinh viên:
+          \n\tTạo ra sinh viên năng động, sáng tạo.
+          \n\tKhuyến khích tinh thần đam mê trong học tập và nghiên cứu.
+          \n\tPhát triển ý thức cộng đồng và khả năng hội nhập quốc tế.
+          \n2.Thúc đẩy tình thần xung kích và tình nguyện:
+          \n\tKhuyến khích sự tham gia tích cực của hội viên và sinh viên trong việc xây dựng cộng đồng và xã hội.
+          \n\tSử dụng công nghệ thông tin để cải thiện các hoạt động cộng đồng.
+          \n3.Phát triển phong trào 'Sinh viên 5 tốt:'
+          \n\tĐẩy mạnh phong trào Sinh viên 5 tốt về chất lượng và số lượng.
+          \n\tXây dựng hình ảnh tích cực của Sinh viên 5 tốt trong xã hội.
+          \n\tĐổi mới cách tổ chức các hoạt động và phong trào cho sinh viên.
+          \n4.Nâng cao khả năng hoạt động của tổ chức cơ sở Hội:
+          \n\tXây dựng cách làm việc khoa học, sáng tạo.
+          \n\tTận dụng thế mạnh trong công nghệ thông tin.
+          \n\tKhuyến khích các hoạt động của các Câu lạc bộ, Đội, Nhóm trực thuộc.
+          \n\tĐảm bảo thông tin truyền đạt được mở cửa và tiếp cận tất cả Hội viên và sinh viên."
+ 
+  utter_action_slogan:
+  - text: "Khẩu hiệu hành động trong giai đoạn 2023 - 2025 của Hội Sinh viên Trường Đại học Công Nghệ Thông Tin - ĐHQG-HCM:
+            \n\tSinh viên trường Đại học Công nghệ Thông tin:
+            \nTiên phong - Sáng tạo - Bản lĩnh - Văn minh - Toàn diện"
+
+  utter_criterion_system:
+  - text: "Đại hội Đại biểu Hội Sinh viên Việt Nam Trường Đại học Công Nghệ Thông Tin - ĐHQG-HCM lần VI, nhiệm kỳ 2023 - 2025 đã diễn ra thành công và thống nhất với các chỉ tiêu gồm:
+            \n1. Tỷ lệ hội viên/sinhviên đạt 95%.
+            \n2. Hoàn thành 100 đề tài tham gia nghiên cứu khoa học sinh viên và các cuộc thi học thuật, gửi tham gia các giải thưởng nghiên cứu khoa học sinh viên các cấp, trong đó có 05 đề tài đạt giải từ cấp ĐHQG-HCM trở lên, 10 đề tài được nghiệm thu.
+            \n3. Tuyên dương 300 sinh viên 5 tốt cấp Khoa, 170 sinh viên 5 tốt cấp trường, 15 sinh viên 5 tốt cấp ĐHQG, 05 sinh viên 5 tốt cấp Thành, 01 Sinh viên 5 tốt cấp Trung ương.
+            \n4. Tổ chức 20 khóa đào tạo kỹ năng thực hành xã hội cho sinh viên.
+            \n5. Vận động tối thiểu 1.500.000.000 đồng học bổng cho sinh viên.
+            \n6. Mỗi chi Hội tổ chức ít nhất 02 hoạt động tình nguyện trong năm, phấn đấu đạt 20.000 ngày tình nguyện trong nhiệm kỳ. Vận động toàn trường hiến 1800 đơn vị máu.
+            \n7. 100% cán bộ Hội từ Chi Hội trưởng trở lên được tập huấn trong năm học.
+            \n8. 70% cán bộ Hội từ cấp Liên chi Hội tham gia thi thử TOEIC ít nhất 01 lần/năm và đạt ít nhất 500 điểm."
+
+  utter_movements_action_programs:
+  - text: "Trong không khí hân hoan của Đại hội Đại biểu Hội Sinh viên Việt Nam Trường Đại học Công Nghệ Thông Tin - ĐHQG-HCM lần VI, nhiệm kỳ 2023 - 2025 các đại biểu đã tiến hành hiệp thương và góp ý cho phong trào và chương trình hành động của Hội Sinh viên trong giai đoạn 2023 - 2025 như sau:
+            \n1. Phong trào Sinh viên 5 tốt.
+            \n\t- Công tác tuyên truyền, bình chọn, tuyên dương, phát huy và kết nối các gương Sinh viên 5 tốt sau tuyên dương
+            \n\t- Các giải pháp tạo môi trường cho sinh viên rèn luyện
+            \n\t\t+Sinh viên vun đắp lý tưởng, rèn luyện đạo đức, tác phong
+            \n\t\t+Sinh viên học tập, sáng tạo, nghiên cứu khoa học
+            \n\t\t+Sinh viên rèn luyện thể chất, chăm lo đời sống văn hóa, tinh thần
+            \n\t\t+Sinh viên tình nguyện vì cuộc sống cộng đồng
+            \n\t\t+Sinh viên chủ động hội nhập quốc tế
+            \n2. Chương trình Tư vấn, Hỗ trợ sinh viên.
+            \n3. Xây dựng Hội Sinh viên Việt Nam vững mạnh.
+            \n\t- Công tác tuyên truyền
+            \n\t- Công tác tổ chức cơ sở Hội
+            \n\t- Công tác Hội viên
+            \n\t- Công tác cán bộ Hội
+            \n\t- Công tác kiểm tra, giám sát
+            \n\t- Công tác tham mưu, chỉ đạo"
+            
+  utter_movement_excellent_student1:
+  - text: "Phong trào Sinh viên 5 tốt gồm:
+            \n- Công tác tuyên truyền, bình chọn, tuyên dương, phát huy và kết nối các gương Sinh viên 5 tốt sau tuyên dương
+            \n- Các giải pháp tạo môi trường cho sinh viên rèn luyện
+            \n\t+Sinh viên vun đắp lý tưởng, rèn luyện đạo đức, tác phong
+            \n\t+Sinh viên học tập, sáng tạo, nghiên cứu khoa học
+            \n\t+Sinh viên rèn luyện thể chất, chăm lo đời sống văn hóa, tinh thần
+            \n\t+Sinh viên tình nguyện vì cuộc sống cộng đồng
+            \n\t+Sinh viên chủ động hội nhập quốc tế
+            \nBạn muốn biết thêm về thông tin nào?"
+
+  utter_movement_excellent_student1.1:
+  - text: "- Thực hiện đa dạng các phương thức tuyên truyền trực quan về phong trào “Sinh viên 5 tốt” tại các cơ sở Hội trực thuộc. Phát huy sử dụng hiệu quả hệ thống “Quản lý Sinh viên 5 tốt” trực tuyến. Triển khai, phát huy mô hình 01 đạt danh hiệu “Sinh viên 5 tốt” hỗ trợ 01 đến 02 sinh viên trong quá trình phấn đấu đạt danh hiệu “Sinh viên 5 tốt”.
+            \n- Tổ chức nghiêm túc, trang trọng, đảm bảo quy trình việc bình chọn và tuyên dương Sinh viên 5 tốt các cấp. Tổ chức có hiệu quả Lễ vinh danh Sinh viên 5 tốt cấp khoa, cấp trường các năm. Đảm bảo 06/06 Liên chi Hội tổ chức Lễ tuyên dương. Phấn đấu tổ chức tuyên dương SV5T cấp chi Hội, cấp Liên chi Hội.
+            \n- Có giải pháp giao nhiệm vụ cụ thể để phát huy Sinh viên 5 tốt ngay từ đầu năm học; tổ chức tốt các hoạt động kết nối Sinh viên 5 tốt với các doanh nghiệp.
+            \n- Phát huy có hiệu quả các hoạt động sau tuyên dương, tận dụng thế mạnh của CLB Sinh viên 5 tốt, đẩy mạnh công tác phát triển “Sinh viên 5 tốt” trở thành Cán bộ Hội.
+            \n- Phát huy các gương Sinh viên 5 tốt tiêu biểu, tạo động lực để các cấp Hội viên, sinh viên phấn đấu đạt danh hiệu “Sinh viên 5 tốt”."
+
+  utter_movement_excellent_student1.2.1:
+  - text: "- Tổ chức Ngày hội truyền thống Sinh viên UIT hàng năm với các hoạt động khẳng định truyền thống, kết nối các thế hệ sinh viên, cựu sinh viên tại trường.
+            \n- Tổ chức các hoạt động gắn với các ngày lễ lớn trong năm, ngày truyền thống học sinh, sinh viên (09/01), ngày thành lập Hội Sinh viên trường (28/05).
+            \n- Tổ chức các buổi nói chuyện truyền cảm hứng giữa cựu sinh viên, cựu Cán bộ Hội các thời kỳ với sinh viên, Cán bộ Hội đương nhiệm nhằm gắn kết, nâng cao chất lượng hoạt động cũng như để sinh viên, Cán bộ Hội học tập kinh nghiệm tác phong từ các thế hệ đi trước.
+            \n- Triển khai đa dạng các hoạt động giáo dục đạo đức, lối sống, bồi dưỡng lý tưởng cách mạng cho sinh viên, gắn với học tập và làm theo tư tưởng, tấm gương đạo đức, phong cách Hồ Chí Minh, tiếp tục duy trì, đổi mới hình thức tổ chức các cuộc thi Hành trình đến với bảo tàng, Dân ta phải biết sử ta,... gắn với các dịp kỷ niệm các ngày lễ lớn.
+            \n- Phối hợp với Đoàn trường tổ chức các diễn đàn, đối thoại giữa sinh viên với lãnh đạo nhà trường, hội nghị sinh viên để sinh viên trao đổi, bày tỏ nguyện vọng, nhu cầu chính đáng. Tiến hành rà soát, xây dựng các tổ, đội, nhóm nắm bắt tình hình tư tưởng và dư luận xã hội trong sinh viên. Phát huy công nghệ thông tin, mạng xã hội để truyền tải thông tin và nắm bắt kịp thời tư tưởng, tình cảm của sinh viên.
+            \n- Phát động phong trào thi đua, đăng ký và triển khai thực hiện các công trình phần việc sinh viên, tổ chức các hoạt động giúp sinh viên tìm hiểu các sự kiện lịch sử, truyền thống cách mạng, giáo dục truyền thống, tình yêu quê hương đất nước, lòng tự hào dân tộc trong sinh viên.
+            \n- Thường xuyên tổ chức các đợt tuyên truyền, sinh hoạt chính trị nhằm giáo dục kiến thức quốc phòng, an ninh, chủ quyền lãnh thổ và các hoạt động hướng về biển đảo tổ quốc; vận động Hội viên, sinh viên tham gia chương trình “Vì biển đảo quê hương, vì tuyến đầu Tổ quốc”.
+            \n- Tổ chức các cuộc thi thực hiện các sản phẩm truyền thông về đất nước, con người Việt Nam, về lịch sử dân tộc, bản sắc văn hóa dân tộc với chủ đề “Tôi yêu Tổ quốc tôi”.
+            \n- Tổ chức cho sinh viên rèn luyện, thực hiện chia sẻ thường xuyên “Mỗi ngày 1 tin tốt, mỗi tuần 1 câu chuyện đẹp”, “Sinh viên Thành phố Hồ Chí Minh - Những câu chuyện đẹp”, xây dựng các công trình tuyên truyền về Ý thức đẹp của sinh viên trường. Phát huy tính gương mẫu của đội ngũ cán bộ Hội, sinh viên tiêu biểu, “Sinh viên 5 tốt” trong việc tuyên truyền, xây dựng ý thức sinh viên.
+            \n- Đẩy mạnh cuộc vận động “Phong cách Cán bộ Đoàn - Hội”, “Tự hào cán bộ Hội - Tự hào màu áo sinh viên”, xây dựng, bồi dưỡng các cấp Cán bộ Hội từ tác phong đến thái độ lẫn năng lực.
+            \n- Tổ chức Hội thi tìm hiểu luật Công nghệ Thông tin, an toàn giao thông, sở hữu trí tuệ luật thanh niên thông các hoạt động tư vấn pháp luật, tuyên truyền phòng chống tội phạm và tệ nạn xã hội, cung cấp tài liệu thông qua trang tin, CLB - Đội - Nhóm.
+            \n- Tổ chức, triển khai có hiệu quả các cuộc thi trực tuyến."
+
+  utter_movement_excellent_student1.2.2:
+  - text: "- Hướng dẫn các cơ sở Hội tổ chức các hoạt động phát huy khả năng sáng tạo của sinh viên, phối hợp với Đoàn trường tổ chức các hoạt động hỗ trợ sinh viên học tập, nghiên cứu khoa học: Hội nghị Sinh viên nghiên cứu khoa học, cuộc thi Ý tưởng sáng tạo, Giải thưởng Euréka cấp trường, tuyên truyền và vận động sinh viên tham gia các hội thi, cuộc thi về học thuật cấp ĐHQG- HCM, cấp Thành,...
+            \n- Tổ chức các hoạt động tạo môi trường hỗ trợ sinh viên học tập, nghiên cứu khoa học, ứng dụng công nghệ: tổ chức các diễn đàn trao đổi, hướng dẫn phương pháp học tập hiệu quả cho Tân sinh viên, nghiên cứu hiện đại; xây dựng thư viện tài liệu số cho sinh viên; hỗ trợ tiếp cận, chọn lọc các nguồn tài liệu về các hội nghị khoa học, bài báo khoa học để làm nguồn tài liệu tham khảo; hỗ trợ tiếp cận, tư vấn từ giảng viên, nhà khoa học trẻ; giới thiệu sản phẩm nghiên cứu khoa học của sinh viên đến doanh nghiệp, các đơn vị phù hợp để ứng dụng thực tiễn.
+            \n- Đẩy mạnh thành lập các câu lạc bộ, đội nhóm, các cuộc thi học thuật tại tất cả Liên chi Hội trực thuộc; mở rộng diện tập hợp của các câu lạc bộ, đội nhóm học thuật ở từng đơn vị; phát huy vai trò của Hội trong việc kết nối giảng viên trẻ trong việc tư vấn, hỗ trợ hoạt động của các câu lạc bộ, đội, nhóm học thuật.
+            \n- Hỗ trợ, phát triển các cuộc thi của Liên chi Hội, Câu lạc bộ - Đội - Nhóm thành các hoạt đông có quy mô cấp trường, cấp cụm tiến tới hoạt động cấp thành.
+            \n- Vận động Hội viên, sinh viên tham gia các hoạt động sáng tạo; liên kết các đơn vị để phát triển, ứng dụng các ý tưởng, công trình nghiên cứu của sinh viên trên thực tiễn; khuyến khích các hoạt động ứng dụng, chuyển giao công nghệ, phát triển các sản phẩm, ứng dụng phục vụ công tác Hội và phong trào sinh viên của trường, của TP. HCM.
+            \n- Vận động, tìm kiếm, hỗ trợ học bổng cho sinh viên khó khăn, sinh viên khuyết tật, sinh viên có thành tích học tập xuất sắc; tập hợp các nguồn hỗ trợ và tiếp nhận các thông tin đề nghị hỗ trợ học tập, nghiên cứu khoa học của sinh viên.
+            \n- Vận động sinh viên thực hiện “Mùa thi an toàn và nghiêm túc” nhằm xây dựng môi trường học tập trong sáng, lành mạnh, góp phần nâng cao chất lượng dạy và học trong nhà trường.
+            \n- Phối hợp với nhà trường tổ chức cho sinh viên tham quan mô hình thực tế thông qua các kỳ thực tập, kiến tập, tham quan nhà máy, các cơ sở sản xuất, doanh nghiệp, hành trình Sinh viên 5 tốt tại các doanh nghiệp lớn về Công nghệ thông tin.
+            \n- Tổ chức ngày hội giới thiệu việc làm, các hội thảo, chương trình định hướng nghề nghiệp cho tân sinh viên, sinh viên, làm cầu nối gắn kết giữa sinh viên và đơn vị sử dụng lao động."
+
+  utter_movement_excellent_student1.2.3:
+    - text: "- Phối hợp phòng Công tác sinh viên tổ chức Hội thao cấp trường, cấp ĐHQG, cấp thành định kỳ hàng năm; các ngày hội Sinh viên khỏe, đi bộ đồng hành, chạy việt dã; các chương trình văn hóa, văn nghệ, “UIT music fest”, hội thi “Nét đẹp sinh viên UIT”,...
+              \n- Xây dựng các hoạt động nâng cao “Văn hóa đọc” rộng rãi trong sinh viên. 6
+              \n- Xây dựng, phát huy và củng cố các câu lạc bộ, đội nhóm thể thao, văn hóa, văn nghệ của sinh viên; tham mưu với nhà trường sử dụng các công trình, sân chơi phục vụ việc rèn luyện sức khỏe cho sinh viên trường.
+              \n- Khuyến khích các hoạt động liên kết giữa các câu lạc bộ của các trường để tạo sân chơi rộng rãi, đa dạng hơn cho sinh viên.
+              \n- Tổ chức gặp gỡ, trao đổi, chia sẻ để nắm bắt tâm tư, tình cảm của sinh viên, giúp sinh viên tránh các bệnh tâm lý; tổ chức định kỳ các hoạt động giáo dục giới tính, tư vấn tâm lý, sức khỏe sinh sản cho cả nam và nữ sinh viên.
+              \n- Xác lập các hoạt động, chương trình chăm lo cho sinh viên trường tại Ký túc xá ĐHQG, sinh viên dân tộc, sinh viên khuyết tật tại trường.
+              \n- Phát huy chương trình văn nghệ “Acoustic Show” định kỳ hàng tháng."
+
+  utter_movement_excellent_student1.2.4:
+    - text: "- Tăng cường tổ chức các hoạt động tình nguyện gắn với chuyên môn, tình nguyện thường xuyên tại trường thông qua các hoạt động “Chủ nhật xanh”, “Thứ bảy tình nguyện”.
+              \n- Xác lập mục tiêu của hoạt động tình nguyện tập trung giải quyết những vấn đề của nhà trường ưu tiên xây dựng khu đô thị ĐHQG-HCM xanh - hiện đại, bảo vệ môi trường và an sinh xã hội, tuyên truyền ngăn chặn các tệ nạn xã hội, thói quen xấu trong sinh viên.
+              \n- Tuyên truyền, vận động sinh viên hiến máu tình nguyện, duy trì các ngày hội hiến máu tình nguyện trong năm học. Hướng dẫn, hỗ trợ các hoạt động tình nguyện tại chỗ, tình nguyện ngắn hạn cho Chi Hội, Liên Chi Hội tự tổ chức các hoạt động tình nguyện trong năm học. Đẩy mạnh các hoạt động quyên góp ủng hộ.
+              \n- Tiếp tục phát huy và đẩy mạnh các chiến dịch tình nguyện lớn trong năm."
+
+  utter_movement_excellent_student1.2.5:
+    - text: "- Tuyên truyền nâng cao nhận thức của sinh viên về hội nhập quốc tế, về cộng đồng chung ASEAN, về hiệp định TPP; các kiến thức pháp luật, các thông lệ quốc tế; trang bị cho sinh viên các kĩ năng, bản lĩnh và tính chủ động trong hội nhập quốc tế.
+              \n- Tham mưu Đảng uỷ, Ban Giám hiệu đẩy mạnh các hoạt động chương trình diễn đàn giao lưu, trao đổi sinh viên quốc tế.
+              \n- Đẩy mạnh hoạt động Câu lạc bộ Open English Club, các “Không gian sinh hoạt tiếng Anh” tại trường; tạo các diễn đàn giúp sinh viên trao đổi kiến thức, phương pháp học tập, nâng cao trình độ ngoại ngữ; xây dựng các giải pháp hỗ trợ sinh viên thực hiện chuẩn đầu ra ngoại ngữ.
+              \n- Phối hợp với Trung tâm ngoại ngữ trong và ngoài trường tổ chức định kì các đợt kiểm tra trình độ Tiếng Anh cho cán bộ Hội, các đợt thi thử TOEIC cho sinh viên.
+              \n- Đẩy mạnh hoạt động Câu lạc bộ Tiếng Nhật – Wakame, tạo môi trường để Sinh viên tìm hiểu, trau dồi thêm ngôn ngữ mới. Hướng dẫn tổ chức các buổi thi thử định kỳ mỗi học kỳ; đồng thời tổ chức sân chơi áp dụng tiếng Nhật và nền văn hóa Nhật Bản.
+              \n- Tăng cường tìm kiếm, chia sẻ thông tin, giao lưu với sinh viên quốc tế thông qua các công cụ giao lưu trực tuyến.
+              \n- Tổ chức trang bị và đánh giá những kỹ năng hội nhập quốc tế cần thiết; chủ động tổ chức các hoạt động giao lưu giữa sinh viên trường và sinh viên quốc tế đến tham quan, liên kết đào tạo tại trường.
+              \n- Áp dụng không gian anh văn vào môi trường làm việc của cán bộ Hội sinh viên. Đảm bảo 70% cán bộ Hội Sinh viên cấp trường tham gia thi thử Anh văn mỗi năm học."
+
+  utter_student_counseling_support_program2:
+    - text: "- Tìm kiếm các nguồn lực xã hội trao các học bổng hỗ trợ tân sinh viên, sinh viên có hoàn cảnh khó khăn, học giỏi; phối hợp với các tổ chức, doanh nghiệp trao học bổng cho sinh viên có hoàn cảnh đặc biệt.
+              \n- Tổ chức đa dạng các loại hình hoạt động văn hóa, nghệ thuật trong Ngày hội đón tân sinh viên. Tổ chức các hoạt động chăm lo sinh viên có hoàn cảnh khó khăn trong dịp Tết Nguyên đán. Vận động sinh viên bỏ học, có nguy cơ bỏ học quay trở lại trường, đảm bảo không để tình trạng sinh viên bị gián đoạn việc học tập vì điều kiện kinh tế.
+              \n- Tổ chức Ngày hội giới thiệu việc làm, kết nối sinh viên và đơn vị sử dung lao động. Tổ chức cung cấp thông tin thị trường lao động, nhu cầu tuyển dụng, yêu cầu của các đơn vị sử dụng lao động đến sinh viên và có giải pháp hỗ trợ sinh viên trang bị kiến thức, kỹ năng thực hành xã hội, kỹ năng nghề nghiệp nhằm đáp ứng thị trường lao động.
+              \n- Tổ chức các chuỗi hoạt động “Nhịp sống sinh viên” nhằm nâng cao nhận thức của sinh viên về sức khỏe học đường, sức khỏe tâm lý, tổ chức các chương trình giáo dục giới tính, sức khỏe sinh sản cho hội viên, sinh viên. Tổ chức các chương trình tư vấn và khám mắt cho sinh viên, góp phần giảm thiểu tác động đặc thù của ngành học mang lại."
+
+  utter_strong_vietnamese_student_union3:
+  - text: "Xây dựng Hội Sinh viên Việt Nam vững mạnh gồm:
+            \n\t- Công tác tuyên truyền
+            \n\t- Công tác tổ chức cơ sở Hội
+            \n\t- Công tác Hội viên
+            \n\t- Công tác cán bộ Hội
+            \n\t- Công tác kiểm tra, giám sát
+            \n\t- Công tác tham mưu, chỉ đạo
+            \nBạn muốn biết thêm về thông tin nào?"
+
+  utter_strong_vietnamese_student_union3.1:
+  - text: "- Tổ chức chương trình hỗ trợ tân Sinh viên, ngày hội Đón tân sinh viên đẩy mạnh quảng bá hình ảnh Hội Sinh viên đến với các bạn Tân Sinh viên, chỉ đạo các cơ sở Hội tổ chức chuỗi hoạt động vào đầu các năm học nhằm giới thiệu mục đích vai trò của Hội Sinh viên với các bạn mới bước vào giảng đường Đại học.
+            \n- Đổi mới phương thức, cách thức truyền thông quảng bá trong các chương trình hoạt động của Hội Sinh viên.
+            \n- Quảng bá hình ảnh các gương Sinh viên 5 tốt, cán bộ Hội tiêu biểu, các gương sáng sinh viên trong học tập, phong trào, rèn luyện bằng nhiều hình thức phong phú."
+
+  utter_strong_vietnamese_student_union3.2:
+    - text: "- Thường xuyên tổ chức rà soát cơ cấu tổ chức và cơ chế hoạt động của các cơ sở Hội trực thuộc trường nhằm có biện pháp hỗ trợ, kiện toàn nhân sự và có định hướng hoạt động. Đẩy mạnh tổ chức các hoạt động giữa các Liên chi Hội, chi Hội tạo sự gắn kết giữa các cơ sở Hội.
+              \n- Tiếp tục đẩy mạnh các hoạt động của các Câu lạc bộ Đội Nhóm, chỉ đạo các Liên chi Hội thành lập các Câu lạc bộ Học thuật gắn với chuyên môn của khoa với những Liên chi Hội chưa có, tạo cơ chế phối hợp giữa các cơ sở Hội đã có. Theo dõi tình hình hoạt động, sinh hoạt thường thức, nhu cầu của sinh viên để thành lập mới các Câu lạc bộ Đội Nhóm cần thiết. Xây dựng hướng dẫn và thang điểm thi đua cho Liên chi Hội ngay từ đầu năm học.
+              \n- Thành lập quỹ hỗ trợ công tác tổ chức hoạt động, kêu gọi đóng góp từ các đồng chí là nguyên cán bộ Hội của trường.
+              \n- Tiếp tục duy trì danh hiệu Chi hội vững mạnh, cụ thể hóa để phù hợp với định hướng của HSV trường, triển khai chi Hội thực hiện theo nghị quyết đại hội."
+
+  utter_strong_vietnamese_student_union3.3:
+    - text: "- Xây dựng và sử dụng cơ sở dữ liệu điện tử để quản lý Hội viên, quản lý hoạt động rèn luyện của Hội viên tại cấp trường.
+              \n- Nâng cao chất lượng Hội viên, đặc biệt là chất lượng chính trị, đạo đức, lối sống; tiếp tục đổi mới phương pháp và hình thức bồi dưỡng Hội viên ưu tú giới thiệu để Đoàn xem xét kết nạp; tích cực, chủ động phối hợp với Đoàn Thanh niên bồi dưỡng sinh viên ưu tú cho Đảng xem xét kết nạp.
+              \n- Đảm bảo quy trình kết nạp Hội viên mới; tính trang trọng nghiêm túc của Lễ kết nạp Hội viên; phấn đấu giữ vững tỉ lệ hội viên trên 95% sinh viên toàn trường. Kịp thời khen thưởng sinh viên đạt giải các cuộc thi trong và ngoài trường nhằm khích lệ, ủng hộ."
+
+  utter_strong_vietnamese_student_union3.4:
+    - text: "- Tiếp tục tham mưu Cấp ủy - Ban Giám hiệu thực hiện tốt Quyết định số 13/2013/QĐ- TTg ngày 06/02/2013 của Thủ tướng Chính phủ về chế độ, chính sách đối với cán bộ Đoàn - Hội.
+              \n- Xây dựng các hoạt động quan tâm, chăn sóc đời sống cán bộ Hội. Tiếp tục đổi mới, nâng chất công tác bồi dưỡng, tập huấn cán bộ Hội; tổ chức ít nhất 02 lớp tập huấn cán bộ trong năm học.
+              \n- Chú ý đầu tư công tác quy hoạch, đào tạo, dự nguồn cán bộ Hội các cấp. Bồi dưỡng, phát triển “Sinh viên 5 tốt” các cấp thành là cán bộ Hội sinh viên tại cơ sở và cán bộ Hội các cấp phấn đấu đạt danh hiệu “Sinh viên 5 tốt”.
+              \n- Xây dựng các chương trình gặp mặt, chia sẻ để kết nối toàn thể cán bộ Hội Sinh viên các cấp.
+              \n- Có giải pháp kiểm tra đánh quá quá trình công tác của cán bộ Hội các cấp."
+
+  utter_strong_vietnamese_student_union3.5:
+    - text: "- Tăng cường kiểm tra công tác xây dựng Hội tại đơn vị và chủ động tổ chức tập huấn công tác kiểm tra trong năm.
+              \n- Đảm bảo 100% Ban Kiểm tra Hội sinh viên trường xây dựng chương trình công tác năm, có ít nhất 02 lần kiểm tra chuyên đề để tham mưu cho Ban chấp hành Hội sinh viên trường trong chỉ đạo hoạt động.
+              \n- Chú ý nâng cao chất lượng công tác tham mưu sau kiểm tra."
+
+  utter_strong_vietnamese_student_union3.6:
+    - text: "- Phát huy, nâng chất hoạt động đối với các hoạt động của Liên chi Hội, chi Hội, Câu lạc bộ - Đội - Nhóm.
+              \n- Đảm bảo nghiêm túc công tác thông tin, báo cáo, hội họp với cấp Thành, với cơ sở trực thuộc.
+              \n- Đẩy mạnh ứng dụng công nghệ thông tin trong hoạt động quản lý, điều hành, tổ chức hoạt động.
+              \n- Thực hiện kịp thời, hiệu quả công tác tham mưu với Cấp ủy - Ban Giám hiệu các vấn đề liên quan đến công tác Hội và phong trào sinh viên."
+
+  utter_programs_projects_initiatives:
+  - text: "Tại Đại hội Đại biểu Hội Sinh viên Việt Nam Trường Đại học Công Nghệ Thông Tin - ĐHQG-HCM lần VI, nhiệm kỳ 2023 - 2025 các đại biểu đã thảo luận sôi nổi và thống nhất các chương trình, công trình, đề án của Hội Sinh viên trường trong giai đoạn 2023 - 2025 bao gồm:
+            \n1. Đề án Nâng cao khả năng ứng dụng ngoại ngữ cho sinh viên trường giai đoạn III từ năm 2023 đến năm 2025.
+            \n2. Đảm bảo tính phối hợp giữa các cơ sở Hội.
+            \n3. Xây dựng các hoạt động kết nối các cấp Cán bộ Hội.
+            \nBạn muốn biết thêm về thông tin nào?"
+
+  utter_programs_projects_initiatives1:
+  - text: "Phối hợp với Trung tâm ngoại ngữ CELUIT của trường, các đơn vị anh ngữ ngoài trường định kỳ tổ chức các đợt thi thử TOEIC cho sinh viên trường: mỗi tháng thi thử TOEIC 2 kỹ năng, mỗi học kỳ thi thử TOEIC 4 kỹ năng. Tăng cường tổ chức các hoạt động talkshow về tiếng anh, hỗ trợ sinh viên định hướng nâng cao khả năng ngoại ngữ.
+            \n\tĐồng thời phối hợp với các đơn vị thúc đẩy hoạt động của Câu lạc bộ Tiếng Nhật Wakame, tổ chức 02 đợt thi thử tiếng Nhật trong một năm học."
+
+  utter_programs_projects_initiatives2:
+    - text: "Mỗi năm học, các cơ sở Hội phải có tối thiểu 1 hoạt động phối hợp với đơn vị trong hoặc ngoài trường để thực hiện hoạt động. Đề án nhằm đảm bảo tính sáng tạo, đa dạng hoạt động ngoài chuyên môn, nâng cao sức liên kết, thi đua với các đơn vị bạn. Tiếp tục áp dụng danh hiệu “Chi Hội vững mạnh” nhằm đánh giá sự sáng tạo trong phong trào của cấp cơ sở, định hướng hoạt động nhằm đạt được mục tiêu chung của Hội Sinh viên trường."
+
+  utter_programs_projects_initiatives3:
+      - text: "Xây dựng cộng đồng cựu Cán bộ Hội, phát triển mô hình “Mentor cựu Cán bộ Hội”. Tăng cường tổ chức các buổi nói chuyện truyền cảm hứng, chia sẻ kinh nghiệm hoạt động giữa các cấp Cán bộ Hội. Tiếp tục duy trì Quỹ hỗ trợ Cán bộ Hội, hội viên, đảm bảo nguồn quỹ được sử dụng hiệu quả trong công tác chăm lo cho Cán bộ Hội, hội viên."
+
+  utter_suprise:
+  - text: "Tuyệt! Tôi thích nghe điều đó"
+  - text: "Tất nhiênnnn! \"Bot Thông Thái\" nhà Yêu Ai Ti mà lị"
+
+  utter_thanks:
+  - text: "Cảm ơn bạn nhiều nha"
+  - text: "Cảm ơn bạn iu quý <3"
+  - text: "Bạn tuyệt vời lắm đó!"
+
+  utter_nothing:
+  - text: "Không có gì đâu nè"
+  - text: "Hihi. Không có chi"
+  - text: "Okay"
+
+  utter_nextwork:
+  - text: "Bạn còn cần \"Bot Thông Thái\" hỗ trợ gì nữa hem nè :<"
+
+  utter_goodbye:
+  - text: "Tạm biệt bạn, chúc bạn một ngày tốt lành"
+
+  utter_default:
+  - text: "Bạn nói cái gì tui hỏng có hiểu"
+  - text: "Xin lỗi bạn. Trí tuệ của \"Bot Thông Thái\" có hạn nên không hỗ trợ bạn được"
+
+  utter_goodnight:
+  - text: "Chúc bạn ngủ ngon!"
+  - text: "Bạn ngủ ngon nha"
+  - text: "Ngủ ngon mơ siêu siêu đẹp nè"
+  - text: "Ngủ mơ thấy mình nha"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
