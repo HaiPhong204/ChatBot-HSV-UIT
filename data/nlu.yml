@@ -1,5 +1,4 @@
 version: "2.0"
-
 nlu:
 - intent: greet
   examples: |
@@ -14,20 +13,18 @@ nlu:
     - chào bạn
     - chào cậu
     - có ai không
-
 - intent: introduce
   examples: |
     - bạn có thể làm gì nào
     - bạn có thể giúp gì cho tôi
     - bạn biết làm gì
     - bạn được việc không
-
+    - bạn giúp được gì
 - intent: objective
   examples: |
     - mục tiêu
     - cho tôi biết mục tiêu
     - mục tiêu là gì
-
 - intent: action_slogan
   examples: |
     - khẩu hiệu
@@ -35,7 +32,6 @@ nlu:
     - khẩu hiệu hành động
     - cho tôi biết khẩu hiệu hành động
     - khẩu hiệu hành động là gì
-
 - intent: obj_action_slogan
   examples: |
     - mục tiêu - khẩu hiệu hành động
@@ -44,32 +40,30 @@ nlu:
     - cho tôi biết mục tiêu - khẩu hiệu hành động
     - mục tiêu - khẩu hiệu hành động là gì
     - mục tiêu khẩu hiệu hành động là gì
-
 - intent: criterion_system
   examples: |
     - hệ thống chỉ tiêu
     - hội sinh viên có những hệ thống chỉ tiêu gì
     - giới thiệu về hệ thống chỉ tiêu
-
+    - cho tôi biết thêm thông tin về Hệ thống chỉ tiêu
 - intent: movements_action_programs
   examples: |
-    - phong trào 
+    - phong trào
     - chương trình hành động
     - phong trào và chương trình hành động
-    - giới thiệu về phong trào 
+    - giới thiệu về phong trào
     - giới thiệu về chương trình hành động
     - giới thiệu phong trào và chương trình hành động
     - phong trào và chương trình hành động thì sao
     - phong trào và chương trình hành động có những gì
     - cho tôi biết về phong trào và chương trình hành động của UIT
-
+    - Phong trào và chương trình hành động thì sao?
 - intent: movement_excellent_student1
   examples: |
     - phong trào sinh viên 5 tốt
     - chi tiết về phong trào sinh viên 5 tốt
     - giới thiệu cho tôi về phong trào sinh viên 5 tốt
     - tôi muốn biết thông tin về phong trào sinh viên 5 tốt
-
 - intent: movement_excellent_student1.1
   examples: |
     - công tác tuyên truyền, bình chọn, tuyên dương, phát huy và kết nối các gương sinh viên 5 tốt sau tuyên dương
@@ -77,7 +71,6 @@ nlu:
     - chi tiết về công tác tuyên truyền, bình chọn, tuyên dương, phát huy và kết nối các gương sinh viên 5 tốt sau tuyên dương
     - gới thiệu về công tác tuyên truyền, bình chọn, tuyên dương, phát huy và kết nối các gương sinh viên 5 tốt sau tuyên dương
     - tôi muốn biết thông tin về công tác tuyên truyền, bình chọn, tuyên dương, phát huy và kết nối các gương sinh viên 5 tốt sau tuyên dương
-
 - intent: movement_excellent_student1.2.1
   examples: |
     - sinh viên vun đắp lý tưởng, rèn luyện đạo đức, tác phong
@@ -85,7 +78,6 @@ nlu:
     - chi tiết về sinh viên vun đắp lý tưởng, rèn luyện đạo đức, tác phong
     - gới thiệu về sinh viên vun đắp lý tưởng, rèn luyện đạo đức, tác phong
     - tôi muốn biết thông tin về sinh viên vun đắp lý tưởng, rèn luyện đạo đức, tác phong
-
 - intent: movement_excellent_student1.2.2
   examples: |
     - sinh viên học tập, sáng tạo, nghiên cứu khoa học
@@ -93,7 +85,6 @@ nlu:
     - chi tiết về sinh viên học tập, sáng tạo, nghiên cứu khoa học
     - gới thiệu về sinh viên học tập, sáng tạo, nghiên cứu khoa học
     - tôi muốn biết sinh viên học tập, sáng tạo, nghiên cứu khoa học
-
 - intent: movement_excellent_student1.2.3
   examples: |
     - sinh viên rèn luyện thể chất, chăm lo đời sống văn hóa, tinh thần
@@ -101,7 +92,6 @@ nlu:
     - chi tiết về sinh viên rèn luyện thể chất, chăm lo đời sống văn hóa, tinh thần
     - gới thiệu về sinh viên rèn luyện thể chất, chăm lo đời sống văn hóa, tinh thần
     - tôi muốn biết sinh viên rèn luyện thể chất, chăm lo đời sống văn hóa, tinh thần
-
 - intent: movement_excellent_student1.2.4
   examples: |
     - sinh viên tình nguyện vì cuộc sống cộng đồng
@@ -109,7 +99,6 @@ nlu:
     - chi tiết về sinh viên tình nguyện vì cuộc sống cộng đồng
     - gới thiệu về sinh viên tình nguyện vì cuộc sống cộng đồng
     - tôi muốn biết sinh viên tình nguyện vì cuộc sống cộng đồng
-
 - intent: movement_excellent_student1.2.5
   examples: |
     - sinh viên chủ động hội nhập quốc tế
@@ -117,21 +106,18 @@ nlu:
     - chi tiết về sinh viên chủ động hội nhập quốc tế
     - gới thiệu về sinh viên chủ động hội nhập quốc tế
     - tôi muốn biết sinh viên chủ động hội nhập quốc tế
-
 - intent: student_counseling_support_program2
   examples: |
     - chương trình tư vấn, hỗ trợ sinh viên
     - chi tiết về chương trình tư vấn, hỗ trợ sinh viên
     - giới thiệu cho tôi về chương trình tư vấn, hỗ trợ sinh viên
     - tôi muốn biết thông tin về chương trình tư vấn, hỗ trợ sinh viên
-
 - intent: strong_vietnamese_student_union3
   examples: |
     - xây dựng Hội Sinh viên Việt Nam vững mạnh
     - chi tiết về xây dựng Hội Sinh viên Việt Nam vững mạnh
     - giới thiệu cho tôi về xây dựng Hội Sinh viên Việt Nam vững mạnh
     - tôi muốn biết thông tin về xây dựng Hội Sinh viên Việt Nam vững mạnh
-
 - intent: strong_vietnamese_student_union3.1
   examples: |
     - công tác tuyên truyền
@@ -139,7 +125,6 @@ nlu:
     - chi tiết về công tác tuyên truyền
     - gới thiệu về công tác tuyên truyền
     - tôi muốn biết công tác tuyên truyền
-
 - intent: strong_vietnamese_student_union3.2
   examples: |
     - công tác tổ chức cơ sở Hội
@@ -147,7 +132,6 @@ nlu:
     - chi tiết về công tác tổ chức cơ sở Hội
     - gới thiệu về công tác tổ chức cơ sở Hội
     - tôi muốn biết công tác tổ chức cơ sở Hội
-
 - intent: strong_vietnamese_student_union3.3
   examples: |
     - công tác Hội viên
@@ -155,7 +139,6 @@ nlu:
     - chi tiết về công tác Hội viên
     - gới thiệu về công tác Hội viên
     - tôi muốn biết công tác Hội viên
-
 - intent: strong_vietnamese_student_union3.4
   examples: |
     - công tác cán bộ Hội
@@ -163,7 +146,6 @@ nlu:
     - chi tiết về công tác cán bộ Hội
     - gới thiệu về công tác cán bộ Hội
     - tôi muốn biết công tác cán bộ Hội
-
 - intent: strong_vietnamese_student_union3.5
   examples: |
     - công tác kiểm tra, giám sát
@@ -171,7 +153,6 @@ nlu:
     - chi tiết về công tác kiểm tra, giám sát
     - gới thiệu về công tác kiểm tra, giám sát
     - tôi muốn biết công tác kiểm tra, giám sát
-
 - intent: strong_vietnamese_student_union3.6
   examples: |
     - công tác tham mưu, chỉ đạo
@@ -179,7 +160,6 @@ nlu:
     - chi tiết về công tác tham mưu, chỉ đạo
     - gới thiệu về công tác tham mưu, chỉ đạo
     - tôi muốn biết công tác tham mưu, chỉ đạo
-
 - intent: programs_projects_initiatives
   examples: |
     - các chương trình, công trình, đề án
@@ -189,7 +169,6 @@ nlu:
     - các chương trình, công trình, đề án thì sao
     - các chương trình, công trình, đề án có những gì
     - cho tôi biết về các chương trình, công trình, đề án của UIT
-
 - intent: programs_projects_initiatives1
   examples: |
     - đề án nâng cao khả năng ứng dụng ngoại ngữ cho sinh viên trường
@@ -202,7 +181,6 @@ nlu:
     - đề án nâng cao khả năng ứng dụng ngoại ngữ cho sinh viên trường giai đoạn III từ năm 2023 đến năm 2025 có những gì
     - cho tôi biết về đề án nâng cao khả năng ứng dụng ngoại ngữ cho sinh viên trường
     - cho tôi biết về đề án nâng cao khả năng ứng dụng ngoại ngữ cho sinh viên trường giai đoạn III từ năm 2023 đến năm 2025
-
 - intent: programs_projects_initiatives2
   examples: |
     - dảm bảo tính phối hợp
@@ -211,7 +189,6 @@ nlu:
     - dảm bảo tính phối hợp giữa các cơ sở Hội thì sao
     - dảm bảo tính phối hợp giữa các cơ sở Hội có những gì
     - cho tôi biết về dảm bảo tính phối hợp giữa các cơ sở Hội
-    
 - intent: programs_projects_initiatives3
   examples: |
     - xây dựng các hoạt động kết nối các cấp Cán bộ Hội
@@ -219,7 +196,6 @@ nlu:
     - xây dựng các hoạt động kết nối các cấp Cán bộ Hội thì sao
     - xây dựng các hoạt động kết nối các cấp Cán bộ Hội có những gì
     - cho tôi biết về xây dựng các hoạt động kết nối các cấp Cán bộ Hội
-
 - intent: suprise
   examples: |
     - ôi trời
@@ -232,7 +208,6 @@ nlu:
     - wow
     - nghe hay đó
     - chính xác
-
 - intent: thanks
   examples: |
     - cảm ơn nhiều
@@ -240,7 +215,6 @@ nlu:
     - cảm ơn nha
     - cảm ơn
     - cảm ơn rất nhiều
-
 - intent: deny
   examples: |
     - hong
@@ -252,14 +226,12 @@ nlu:
     - đừng như vậy chứ
     - không đời nào
     - hoàn toàn không
-
 - intent: goodbye
   examples: |
     - tạm biệt
     - hẹn gặp lại
     - gặp lại sau
     - lúc khác gặp lại
-
 - intent: goodnight
   examples: |
     - chúc ngủ ngon
